@@ -17,7 +17,7 @@ cask "qgis-3.22" do
     end
   end
 
-  app "QGIS.app"
+  app "QGIS.app", target "QGIS 3.22.app"
 
   zap trash: [
     "~/Library/Application Support/QGIS",
