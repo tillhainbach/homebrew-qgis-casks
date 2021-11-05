@@ -4,7 +4,7 @@ cask "qgis-ltr-3.16" do
   sha256 "90ae806f2974c275288ee36778518228aa7b1f36e7c9d7e41bac111fadd2890e"
 
   url "https://qgis.org/downloads/macos/ltr/qgis_ltr_final-#{version.before_comma.dots_to_underscores}_#{version.after_comma}.dmg"
-  name "QGIS-LTR 3.16"
+  name "QGIS-LTR"
   desc "Geographic Information System"
   homepage "https://www.qgis.org/"
 
@@ -18,7 +18,7 @@ cask "qgis-ltr-3.16" do
     end
   end
 
-  app "QGIS.app"
+  app "QGIS-LTR.app", target: "QGIS-LTR 3.16"
 
   zap trash: [
     "~/Library/Application Support/QGIS",
