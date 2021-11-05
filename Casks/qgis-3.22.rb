@@ -1,4 +1,4 @@
-cask "qgis" do
+cask "qgis-3.22" do
   version "3.22.0,20211022_154850"
   sha256 "e1a8c6d60c51a44b7f743c03e3d0287025888a1f15b1c479d5e8fa54c2cea292"
 

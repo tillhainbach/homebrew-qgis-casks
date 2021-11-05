@@ -1,5 +1,5 @@
 # qgis_ltr_final-3_16_12_20211025_052210.dmg	25-Oct-2021 14:09	1.2G	 
-cask "qgis-ltr" do
+cask "qgis-ltr-3.16" do
   version "3.16.12,20211025_052210"
   sha256 "90ae806f2974c275288ee36778518228aa7b1f36e7c9d7e41bac111fadd2890e"
 
